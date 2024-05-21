@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:aritra-issuer-faber.nborbit.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:aritra-issuer-faber.nborbit.io#key-1",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:aritra-issuer-faber.nborbit.io",
+            "publicKeyBase58": "EqvLGFXvZF2ZuEUHWoVFzHpL65T28ZaYQMB75ndSsoBf"
+        }
+    ],
+    "authentication": [
+        "did:web:aritra-issuer-faber.nborbit.io#key-1"
+    ],
+    "assertionMethod": [
+        "did:web:aritra-issuer-faber.nborbit.io#key-1"
+    ],
+    "service": [
+        {
+            "id": "did:web:aritra-issuer-faber.nborbit.io#did-communication",
+            "type": "did-communication",
+            "serviceEndpoint": "http://localhost:8000",
+            "recipient_keys": [
+                "did:web:aritra-issuer-faber.nborbit.io#key-1"
+            ],
+            "accept": [
+                "didcomm/aip2;env=rfc19"
+            ],
+            "routing_keys": [],
+            "priority": 1
+        }
+    ],
+    "alsoKnownAs": []
+}
