@@ -3,28 +3,28 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "id": "did:web:aritra-issuer-faber.github.com",
+    "id": "did:web:aritrocoder.github.io:did-web-issuer",
     "verificationMethod": [
         {
-            "id": "did:web:aritra-issuer-faber.github.com#key-1",
+            "id": "did:web:aritrocoder.github.io:did-web-issuer#key-1",
             "type": "Ed25519VerificationKey2018",
-            "controller": "did:web:aritra-issuer-faber.github.com",
+            "controller": "did:web:aritrocoder.github.io:did-web-issuer",
             "publicKeyBase58": "EqvLGFXvZF2ZuEUHWoVFzHpL65T28ZaYQMB75ndSsoBf"
         }
     ],
     "authentication": [
-        "did:web:aritra-issuer-faber.github.com#key-1"
+        "did:web:aritrocoder.github.io:did-web-issuer#key-1"
     ],
     "assertionMethod": [
-        "did:web:aritra-issuer-faber.github.com#key-1"
+        "did:web:aritrocoder.github.io:did-web-issuer#key-1"
     ],
     "service": [
         {
-            "id": "did:web:aritra-issuer-faber.github.com#did-communication",
+            "id": "did:web:aritrocoder.github.io:did-web-issuer#did-communication",
             "type": "did-communication",
             "serviceEndpoint": "http://localhost:8000",
             "recipient_keys": [
-                "did:web:aritra-issuer-faber.github.com#key-1"
+                "did:web:aritrocoder.github.io:did-web-issuer#key-1"
             ],
             "accept": [
                 "didcomm/aip2;env=rfc19"
