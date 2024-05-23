@@ -9,7 +9,7 @@
             "id": "did:web:aritrocoder.github.io:didwebissuer#key-1",
             "type": "Ed25519VerificationKey2018",
             "controller": "did:web:aritrocoder.github.io:didwebissuer",
-            "publicKeyBase58": "ERoeKmZnkPqZRx9PYTtYTkmdkasTv1KZs9eyFbrbpzpt"
+            "publicKeyBase58": "CkbHJ3ir6EVV1C2GD2eS8YuAkYGAwC9mYHcQaYwwxnSF"
         }
     ],
     "authentication": [
