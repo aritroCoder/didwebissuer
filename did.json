@@ -3,28 +3,28 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "id": "did:web:aritrocoder.github.io:did-web-issuer",
+    "id": "did:web:aritrocoder.github.io:didwebissuer",
     "verificationMethod": [
         {
-            "id": "did:web:aritrocoder.github.io:did-web-issuer#key-1",
+            "id": "did:web:aritrocoder.github.io:didwebissuer#key-1",
             "type": "Ed25519VerificationKey2018",
-            "controller": "did:web:aritrocoder.github.io:did-web-issuer",
+            "controller": "did:web:aritrocoder.github.io:didwebissuer",
             "publicKeyBase58": "ERoeKmZnkPqZRx9PYTtYTkmdkasTv1KZs9eyFbrbpzpt"
         }
     ],
     "authentication": [
-        "did:web:aritrocoder.github.io:did-web-issuer#key-1"
+        "did:web:aritrocoder.github.io:didwebissuer#key-1"
     ],
     "assertionMethod": [
-        "did:web:aritrocoder.github.io:did-web-issuer#key-1"
+        "did:web:aritrocoder.github.io:didwebissuer#key-1"
     ],
     "service": [
         {
-            "id": "did:web:aritrocoder.github.io:did-web-issuer#did-communication",
+            "id": "did:web:aritrocoder.github.io:didwebissuer#did-communication",
             "type": "did-communication",
             "serviceEndpoint": "http://localhost:8000",
             "recipient_keys": [
-                "did:web:aritrocoder.github.io:did-web-issuer#key-1"
+                "did:web:aritrocoder.github.io:didwebissuer#key-1"
             ],
             "accept": [
                 "didcomm/aip2;env=rfc19"
