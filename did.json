@@ -24,7 +24,7 @@
             "type": "did-communication",
             "serviceEndpoint": "http://localhost:8000",
             "recipient_keys": [
-                "did:web:aritrocoder.github.io:did-web-issuer#key-1"
+                "ERoeKmZnkPqZRx9PYTtYTkmdkasTv1KZs9eyFbrbpzpt"
             ],
             "accept": [
                 "didcomm/aip2;env=rfc19"
